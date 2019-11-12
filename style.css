@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 10px;
+  font-family: Roboto, Arial, sans-serif;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  overflow-y: scroll;
+}
+
+#container-1 {
+  width: 100%;
+  height: 56px;
+  padding: 0px 16px;
+  margin: 0px;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.open-menu a {
+  width: 24px;
+  height: 24px;
+}
+
+.logo a {
+  width: 120px;
+  height: 24px;
+}

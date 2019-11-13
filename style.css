@@ -20,15 +20,84 @@ body {
   background: white;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 
-.open-menu a {
-  width: 24px;
-  height: 24px;
+.open-menu {
+  opacity: 999;
+  margin-right: 16px;
+}
+.search {
+  width: 640px;
+  height: 32px;
+  padding: 2px 0px 2px 9px;
+  display: flex;
+  color: black;
+  border: none;
+  position: relative;
+  align-items: center;
+  border: 1px solid lightgrey;
+  border-radius: 2px 0 0 2px;
+  margin: 0 450px 0 452px;
+  justify-content: flex-end;
+}
+input {
+  width: 600px;
+  height: 32px;
+  text-align: start;
+  cursor: text;
+  margin: 0;
+  border: none;
+  background: transparent;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  font: 16px arial, sans-serif;
+  outline: none;
+  padding: 1px;
+}
+.button {
+  cursor: pointer;
+  width: 65px;
+  height: 32px;
+  margin: 0;
+  border: 1px solid lightgrey;
+  background-color: #f8f8f8;
+  border-radius: 1px;
+  margin: 0;
+  padding: 1px 7px 2px;
+  position: relative;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.lupa:hover {
+  border-color: #c6c6c6;
+  background-color: #f0f0f0;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+}
+.search-icon {
+  height: 20px;
+  width: 20px;
+  color: #9aa0a6;
+  display: inline-block;
+  position: relative;
+  opacity: 0.4;
+  cursor: pointer;
+  margin-top: 3px;
 }
 
-.logo a {
-  width: 120px;
-  height: 24px;
+.lupa {
+  position: absolute;
+  width: 65px;
+  height: 32px;
+  color: transparent;
+  border: 1px solid lightgrey;
+  background-color: #f8f8f8;
+  cursor: pointer;
+}
+.apps-yt {
+  margin-left: 28px;
 }

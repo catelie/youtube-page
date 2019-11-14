@@ -143,7 +143,7 @@ input {
   font-weight: 500;
   line-height: 1.8rem;
   cursor: pointer;
-  color: #0d0d0d;
+  color: #606060;
   position: relative;
   text-decoration: none;
 }
@@ -155,4 +155,18 @@ input {
   top: 50%;
   left: 24px;
   transform: translateY(-50%);
+}
+#container-2 h3 {
+  height: 32px;
+  display: block;
+  justify-content: flex-start;
+  padding: 3px 22px 8px 24px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: #606060;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.007px;
 }

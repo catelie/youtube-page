@@ -118,7 +118,7 @@ input {
   overflow: hidden;
 }
 
-#container-2 {
+#sidebar {
   width: 100%;
   height: 1123px;
   background: white;
@@ -131,14 +131,14 @@ input {
   overflow-y: auto;
 }
 
-#container-2 .division {
+#sidebar .division {
   width: 100%;
   padding-top: 12px;
   border-bottom: 1px solid lightgrey;
   padding-bottom: 12px;
 }
 
-#container-2 .division a {
+#sidebar .division a {
   width: 100%;
   height: 40px;
   display: flex;
@@ -153,17 +153,17 @@ input {
   position: relative;
   text-decoration: none;
 }
-#container-2 .division a:hover {
+#sidebar .division a:hover {
   background-color: rgba(0, 0, 0, 0.05);
 }
-#container-2 .division a .icon {
+#sidebar .division a .icon {
   position: absolute;
   top: 50%;
   left: 24px;
   transform: translateY(-50%);
   mix-blend-mode: darken;
 }
-#container-2 h3 {
+#sidebar h3 {
   display: block;
   padding: 3px 22px 8px 24px;
   font-size: 1.4rem;
@@ -182,7 +182,7 @@ input {
   transform: translateY(-50%);
 }
 
-#container-2 h2 {
+#sidebar h2 {
   width: 100%;
   display: inline-block;
   padding: 16px 24px 0;

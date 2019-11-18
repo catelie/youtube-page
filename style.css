@@ -9,7 +9,10 @@
 body {
   padding: 0;
   margin: 0;
-  overflow-y: scroll;
+  overflow: hidden;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 #container-1 {
@@ -116,7 +119,7 @@ input {
 }
 
 #container-2 {
-  width: 240px;
+  width: 100%;
   height: 1123px;
   background: white;
   display: flex;
@@ -124,7 +127,10 @@ input {
   justify-content: flex-start;
   flex-direction: column;
   border-right: 1px solid lightgrey;
+  flex: 1;
+  overflow-y: auto;
 }
+
 #container-2 .division {
   width: 100%;
   padding-top: 12px;
@@ -155,18 +161,39 @@ input {
   top: 50%;
   left: 24px;
   transform: translateY(-50%);
+  mix-blend-mode: darken;
 }
 #container-2 h3 {
-  height: 32px;
   display: block;
-  justify-content: flex-start;
   padding: 3px 22px 8px 24px;
   font-size: 1.4rem;
   font-weight: 500;
-  line-height: 1.8rem;
   color: #606060;
   position: relative;
-  text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 0.007px;
+}
+
+.luisito {
+  border-radius: 80px;
+  position: absolute;
+  top: 50%;
+  left: 24px;
+  transform: translateY(-50%);
+}
+
+#container-2 h2 {
+  width: 100%;
+  display: inline-block;
+  padding: 16px 24px 0;
+  font-size: 1.3rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  justify-content: flex-start;
+  color: #606060;
+  position: relative;
+  letter-spacing: 0.007px;
+  white-space: nowrap;
+  flex-wrap: wrap;
+  text-decoration: none;
 }
